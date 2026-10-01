@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#090910">
+<meta name="description" content="Une lettre de Lucas pour Diana">
+<title>Pour Diana — Lucas</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="ambient"></div>
+
+<section id="opening" class="screen">
+  <div class="opening-copy">
+    <div class="micro">PARIS · 01.10.2026</div>
+    <h1>Pour Diana.</h1>
+    <p>Une réponse que je voulais te donner autrement.</p>
+  </div>
+
+  <button id="envelopeButton" class="envelope-button" aria-label="Ouvrir l'enveloppe">
+    <span class="envelope-shadow"></span>
+    <span class="envelope">
+      <span class="envelope-back"></span>
+      <span class="letter-peek">Diana,</span>
+      <span class="flap"></span>
+      <span class="envelope-front"></span>
+      <span class="seal">L</span>
+    </span>
+    <span class="open-label">Ouvrir la lettre</span>
+  </button>
+  <div class="hint">appuie sur l’enveloppe</div>
+</section>
+
+<main id="content" aria-hidden="true">
+  <header class="toolbar">
+    <div class="signature-mini">LUCAS → DIANA</div>
+    <div class="language-switch" aria-label="Choisir la langue">
+      <button class="lang active" data-lang="fr">🇫🇷 FR</button>
+      <button class="lang" data-lang="en">🇬🇧 EN</button>
+      <button class="lang" data-lang="es">🇲🇽 ES</button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="micro">UNE LETTRE DE LUCAS</div>
+    <h2>Diana.</h2>
+    <p>Parce que certaines réponses méritent plus qu’un simple message.</p>
+  </section>
+
+  <article class="paper">
+    <div class="paper-top">
+      <span id="date">Paris, le 01/10/2026</span>
+      <span>Pour Diana</span>
+    </div>
+    <div id="letter"></div>
+    <div class="closing-signature">Lucas</div>
+
+    <div class="maker-note">
+      <div class="maker-icon">&lt;/&gt;</div>
+      <div>
+        <strong>Une petite précision de l’auteur</strong>
+        <p>Tout le texte de cette lettre a été écrit par moi-même. Pour créer et programmer ce site, j’ai toutefois eu recours à <strong>ChatGPT</strong>, car je suis encore novice en programmation. Je voulais quand même transformer mes propres mots en quelque chose qui me ressemble.</p>
+      </div>
+    </div>
+  </article>
+
+  <footer>
+    <span>Écrit à Paris</span>
+    <span>✦</span>
+    <span>Pour Diana</span>
+  </footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
